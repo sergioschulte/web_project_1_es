@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -13,14 +9,10 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
   background-color: #f2f2f2;
   position: relative;
   display: flex;
   align-items: center;
-}
-
-.logo {
 }
 
 .logo_place_header {
@@ -72,7 +64,6 @@
   z-index: 1;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square {
   height: 568px;
   width: 568px;
@@ -183,7 +174,6 @@
   margin-top: 60px;
 }
 
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
@@ -197,18 +187,12 @@
   font-weight: bold;
 }
 
-.table__heading_theme_dark {
-}
-
 .table__text {
   margin: 0;
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text_theme_dark {
 }
 
 .feynman {
@@ -301,12 +285,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.footer__column_content_about {
-}
-
-.footer__column_content_social {
 }
 
 .footer__column-heading {
