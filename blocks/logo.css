@@ -1,0 +1,18 @@
+.logo {
+  object-fit: contain;
+  object-position: left top;
+}
+
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
