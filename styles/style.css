@@ -15,6 +15,11 @@
   align-items: center;
 }
 
+.logo {
+  object-fit: contain;
+  object-position: left top;
+}
+
 .logo_place_header {
   width: 154px;
   height: 31px;
@@ -58,6 +63,7 @@
 .header__main-illustration {
   width: 756px;
   height: 608px;
+  object-fit: contain;
   position: absolute;
   bottom: 0;
   right: 0;
