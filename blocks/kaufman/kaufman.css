@@ -1,6 +1,5 @@
 .kaufman {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 100px 0;
   background-color: #1f1f1f;
   display: flex;
   flex-direction: column;

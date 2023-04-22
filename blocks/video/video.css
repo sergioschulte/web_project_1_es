@@ -1,4 +1,6 @@
 .video {
+  background-color: #f2f2f2;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
