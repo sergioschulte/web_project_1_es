@@ -2,6 +2,7 @@
   width: 160px;
   height: 160px;
   margin: 60px 40px 43px;
-  border: 2px solid white;
+  border-right: 4px solid #2f80ed;
+  border-left: 4px solid #2f80ed;
   border-radius: 50%;
 }

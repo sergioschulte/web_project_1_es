@@ -2,5 +2,6 @@
   display: block;
   width: 270px;
   height: 38px;
-  border: 2px solid gray;
+  border: 3px solid gray;
+  border-radius: 10px;
 }

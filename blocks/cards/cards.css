@@ -1,9 +1,10 @@
 .cards {
-  width: 920px;
+  width: 87%;
   margin: 0;
   padding: 0;
   column-gap: 100px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }

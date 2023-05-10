@@ -1,0 +1,11 @@
+.header__container {
+  width: 90%;
+  max-width: 1440px;
+  height: 100vh;
+  min-height: 637px;
+  max-height: 756px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}

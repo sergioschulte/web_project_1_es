@@ -2,4 +2,5 @@
   margin-top: 68px;
   column-gap: 48px;
   display: flex;
+  justify-content: center;
 }

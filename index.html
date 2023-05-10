@@ -9,23 +9,25 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          class="logo logo_place_header"
-          src="images/logo/logo_place_header.png"
-          alt="Logo de Practicum"
-        />
-        <h1 class="header__title">Aprender a aprender</h1>
-        <h2 class="header__subtitle">
-          Las técnicas de aprendizaje más eficaces y avanzadas que puedes
-          aplicar en tu vida diaria
-          <a class="header__link link" href="#">Más información &rarr;</a>
-        </h2>
-        <img
-          class="header__main-illustration"
-          src="images/header-image.png"
-          alt="Una mujer de pie en la cima de un peñasco, pensativa, mirando al horizonte con las manos en los bolsillos. Un cuadrado azul aparece como fondo de la imagen."
-        />
-        <div class="header__square rotation"></div>
+        <div class="header__container">
+          <img
+            class="logo logo_place_header"
+            src="images/logo/logo_place_header.png"
+            alt="Logo de Practicum"
+          />
+          <h1 class="header__title">Aprender a aprender</h1>
+          <h2 class="header__subtitle">
+            Las técnicas de aprendizaje más eficaces y avanzadas que puedes
+            aplicar en tu vida diaria
+            <a class="header__link link" href="#">Más información &rarr;</a>
+          </h2>
+          <img
+            class="header__main-illustration"
+            src="images/header-image.png"
+            alt="Una mujer de pie en la cima de un peñasco, pensativa, mirando al horizonte con las manos en los bolsillos. Un cuadrado azul aparece como fondo de la imagen."
+          />
+          <div class="header__square rotation"></div>
+        </div>
       </header>
       <main class="content">
         <section class="description">
@@ -136,25 +138,6 @@
           </ul>
         </section>
 
-        <section class="video">
-          <h3 class="section-title">Charlas TED</h3>
-          <h4 class="section-subtitle">
-            Para los amantes de la procrastinación
-          </h4>
-          <div class="video__iframes">
-            <iframe
-              class="video__iframe"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              class="video__iframe"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </section>
-
         <section class="oakley">
           <article class="two-columns">
             <h3 class="two-columns__brief">La historia de Barbara Oakley</h3>
@@ -180,14 +163,35 @@
         </section>
 
         <section class="feynman">
-          <h3 class="feynman__title">La técnica Feynman</h3>
-          <h4 class="feynman__subtitle">Aprender sin olvidar</h4>
-          <a class="feynman__link link" href="#">Más &rarr;</a>
-          <img
-            class="feynman__image"
-            src="images/feynman.png"
-            alt="Una imagen de Richard Feynman, físico cuántico de fama mundial. La técnica Feynman se deriva de sus métodos de estudio cuando era estudiante en Princeton."
-          />
+          <div class="feynman__container">
+            <h3 class="feynman__title">La técnica Feynman</h3>
+            <h4 class="feynman__subtitle">Aprender sin olvidar</h4>
+            <a class="feynman__link link" href="#">Más &rarr;</a>
+            <img
+              class="feynman__image"
+              src="images/feynman.png"
+              alt="Una imagen de Richard Feynman, físico cuántico de fama mundial. La técnica Feynman se deriva de sus métodos de estudio cuando era estudiante en Princeton."
+            />
+          </div>
+        </section>
+
+        <section class="video">
+          <h3 class="section-title section-title_theme_dark">Charlas TED</h3>
+          <h4 class="section-subtitle section-subtitle_theme_dark">
+            Para los amantes de la procrastinación
+          </h4>
+          <div class="video__iframes">
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
 
         <section class="digits">
@@ -266,12 +270,12 @@
             <p class="khan__quote-author">George Lucas</p>
             <p class="khan__quote-author-subline">Director de cine</p>
             <div class="khan__book-container">
+              <a class="khan__buy-link link" href="#">Comprar libro &rarr;</a>
               <img
                 class="khan__book-pic"
                 src="images/khan-book-2.png"
                 alt="La portada del libro 'La escuela del mundo', de Salman Khan."
               />
-              <a class="khan__buy-link link" href="#">Comprar libro &rarr;</a>
             </div>
           </div>
         </section>
@@ -283,7 +287,7 @@
           <h4 class="section-subtitle section-subtitle_theme_dark">
             por Josh Kaufman
           </h4>
-          <ul class="table table_theme_dark">
+          <ul class="table">
             <li class="table__cell table__cell_theme_dark">
               <h5 class="table__heading table__heading_theme_dark">1</h5>
               <p class="table__text table__text_theme_dark">
@@ -345,11 +349,6 @@
               </p>
             </li>
           </ul>
-          <img
-            class="kaufman__triangle rotation"
-            src="images/kaufman-triangle.svg"
-            alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad."
-          />
         </section>
 
         <section class="resources">
@@ -440,6 +439,11 @@
               </li>
             </ul>
           </div>
+          <img
+            class="footer__triangle rotation"
+            src="images/footer-triangle.svg"
+            alt="Un gran triángulo azul"
+          />
         </div>
       </footer>
     </div>
