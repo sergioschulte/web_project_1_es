@@ -1,27 +1,28 @@
-# Proyecto Web
+# Proyecto Web: Aprender a aprender
 
-Este proyecto es un trabajo para poner en práctica mis **habilidades de desarrollo web**, como parte de un curso de **Practicum**.
+## Descripción general
 
-El objetivo es desarrollar un **sitio web**, paso a paso, incrementando cada vez la complejidad del mismo conforme avanzo en el curso y hago uso de los nuevos conocimientos adquiridos.
+Este proyecto consta de un sitio web que muestra algunas técnicas y consejos para mejorar el proceso del aprendizaje.
 
-El **contenido** del sitio web está orientado a aportar ideas para el **mejoramiento del proceso de aprendizaje**, con la intención de facilitar el estudio del material del curso.
+El sitio incluye una sola página web cuya funcionalidad es meramente informativa, cuyo contenido consiste en textos, imágenes y videos.
 
-Entre las **tecnologías y herramientas** utilizadas para el desarrollo de este sitio web se encuentran la siguientes:
+El proyecto es un trabajo para poner en práctica mis habilidades de desarrollo web, como parte de un curso de Practicum.
 
-- [**Visual Studio Code**](https://code.visualstudio.com/), para escribir el código fuente
-- [**HTML5**](https://html.spec.whatwg.org/) y [**CSS3**](https://www.w3.org/TR/CSS/), para diseño de páginas web y animaciones
+El sitio web está diseñado para visualizarse en una resolución horizontal mínima de 1280px.
+
+Se han agregado prefijos de proveedor al código CSS para ampliar la compatibilidad del código entre navegadores web.
+
+Enlace al sitio web:
+https://sergioschulte.github.io/web_project_1_es/
+
+## Tecnologías y herramientas utilizadas
+
+- [**Visual Studio Code**](https://code.visualstudio.com/), para escritura del código fuente
+- [**HTML5**](https://html.spec.whatwg.org/), para diseño del documento web
+- [**CSS3**](https://www.w3.org/TR/CSS/), para estilos y animaciones del documento web
 - [**Flexbox**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout), para posicionamiento de elementos HTML
+- [**Autoprefixer CSS online**](https://autoprefixer.github.io/), para prefijos de proveedor CSS
 - [**Metodología BEM**](https://en.bem.info/), para organización de código y archivos
-- [**API de YouTube**](https://developers.google.com/youtube/iframe_api_reference), para insertar videos
+- [**API de YouTube**](https://developers.google.com/youtube/iframe_api_reference), para insertar videos en el sitio web
 - [**Git**](https://git-scm.com/), para control de versiones
-
-Por ahora, el sitio consta de una sola página y su funcionalidad es meramente informativa, mostrando contenidos en forma de textos, imágenes y videos.
-
-En futuras versiones del proyecto se utilizará _JavaScript_ para brindarle mayor interactividad al sitio, y posicionamiento de elementos HTML con _Grid_.
-
-```
-<-- NOTA -->
-
-Como mejora en el corto plazo queda pendiente aumentar la compatibilidad entre navegadores del código CSS,
-agregando los prefijos de proveedor necesarios.
-```
+- [**GitHub Pages**](https://pages.github.com/), para despliegue del sitio web

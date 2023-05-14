@@ -3,5 +3,7 @@
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
 }
